@@ -137,3 +137,67 @@ header.sticky{
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0 0 0 /10%);
 }
+
+
+.center-text h2{
+    color: #111;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.center-text span{
+    color: #EE1c47;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+}
+.row{
+    transition: all .42s ease;
+    position: relative;
+}
+.row img{
+    width: 260px;
+    height: 300px;
+    background-size: contain;
+    transition: all .42s ease;
+}
+.row img:hover{
+    transform: scale(0.9);
+}
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px ;
+    border-radius: 2px;
+}
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+.heart-icon:hover{
+    color: #EE1c47;
+}
+.ratting i{
+    color: #ff8c00;
+    font-size: 18px;
+}
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.price p{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
