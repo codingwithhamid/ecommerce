@@ -201,3 +201,79 @@ header.sticky{
     font-size: 14px;
     font-weight: 600;
 }
+.client-review{
+    background-color: #f3f4f6;
+}
+.review{
+    text-align: center;
+}
+.review h4{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #111;
+    text-transform: capitalize;
+}
+.review img{
+    width: 150px;
+    height: auto;
+    border-radius: 50px;
+    margin: 10px 0px;
+    
+}
+.review p{
+    color:#707070 ;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.review h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+/* update-section-css */
+.up-center-text{
+    text-align: center;
+    color: #111;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.cart img{
+width: 380px;
+height: auto;
+border: 5px;
+}
+.update-cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    gap: 2rem;
+    
+}
+.cart h5{
+    color: #636872;
+    font-size: 14px ;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.cart h4{
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart p{
+    color: #707070;
+    font-size: 15px ;
+    max-width: 380px;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+.cart h6{
+    color: #151515;
+    font-size: 15px;
+    font-weight: 400;
+}
