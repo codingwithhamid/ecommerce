@@ -10,6 +10,9 @@
     font-family: "Oswald", sans-serif;
 
 }
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
 header{
   
      background-color: #c0c0c0; 
@@ -39,6 +42,7 @@ header{
 }
 .links li a:hover{
     color: #EE1c47;
+    text-decoration: underline;
 }
 .nav-icon{
     display: flex;
@@ -414,3 +418,7 @@ transition: .4s;
         right: 0;
     }
 }
+                                                    
+    
+                                                         
+                                                         
